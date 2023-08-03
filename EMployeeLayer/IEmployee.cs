@@ -9,5 +9,8 @@ namespace EMployeeLayer
     public interface IEmployee
     {
         public object get();
+        public object leftjoin();
+
+        public object groupJoin();
     }
 }
